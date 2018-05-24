@@ -37,5 +37,5 @@ functions:
   launch_scrapers:
     handler: handler.launch_scrapers
     events:
-      - schedule: rate(1 hour)
+      - schedule: rate(0/5 13-21 ? * MON-FRI *)
 

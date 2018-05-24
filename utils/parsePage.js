@@ -5,6 +5,7 @@ module.exports = page => {
         const $ = cheerio.load(page);
 
         const newsData = $('.nn-tab-link').text().split('\n')[2].trim();
+        // const newsData = $('.textDiv').text().trim();
 
         // const newsDate = $('.time').html();
         // const data = {
